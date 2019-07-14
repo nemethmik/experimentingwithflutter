@@ -12,7 +12,7 @@ class AppStateKeeper extends State<StatefulWidget> {
         floatingActionButton: FloatingActionButton(
           backgroundColor: barColor,
           onPressed: (){this.setState((){myValue += 1;});},
-          child: Icon(Icons.add),        
+          child: Icon(Icons.favorite),        
         ),
         backgroundColor: bgColor,
         appBar: AppBar(
