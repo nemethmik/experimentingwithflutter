@@ -1,5 +1,5 @@
-# experimentingwithflutter
-A project for experimenting with Flutter.
+# Experimenting with Flutter
+A project for learning Flutter.
 I'll put this project on hold now and I am coming back to React/TypeScript/MUI to experiment with a local project React Client for Service Broker.
 I commited this statement on January 19, and a couple of days ago I reopened the project to go on with experimenting with Flutter. I am maintaining an accompanying document file on my private onedrive: FlutterGettingStarted.
 This repository has a number of branches. Each sample is saved in a separate branch.
@@ -26,6 +26,7 @@ A couple of young developer guys after three days of evaluating Flutter, collect
 - Asynchronous programming is nightmare
 - No traditional lifecycle management for UI
 - Packages are under heavy development, no stable API  
+
 I wouldn't say all of these are nonsense, still some has truth in it. Honestly I can only agree with the comment about runtime reflection. Dart has no finalizers, nor destructors either, which is really a pain.
 Android Java VM's and iOS/Swift real preemptive multithreading both definitely are far superior than Dart's, but millions of programmers are working with JavaScript/TypeScript and Dart has exactly the same event loop-based Future/Promise machinery for asynchronous programming, since the underlying packages for HTTP communications, behind the scene use real multi-threading. Definitely, neither in JavaScript nor in Dart you cannot implement complexlengthy computations, but libraries like Axios/JavaScript and http/Dart work excellently for asynchronous communication.
 Flutter is one of the best documented new language with hundreds of excellent training videos, tutorials on Youtube, Udemy, Medium, Flutter.dev.   
