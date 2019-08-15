@@ -4,7 +4,7 @@ import 'user.dart';
 import 'app_colors.dart';
 import 'text_styles.dart';
 import 'ui_helpers.dart';
-import 'posts.dart';
+import 'posts_listview.dart';
 
 class HomeView extends StatelessWidget {
   @override
@@ -27,7 +27,7 @@ class HomeView extends StatelessWidget {
             child: Text('Here are all your posts', style: subHeaderStyle),
           ),
           UIHelper.verticalSpaceSmall,
-          Expanded(child: Posts(),)
+          Expanded(child: PostsListView(),)
         ],
       ),
     );

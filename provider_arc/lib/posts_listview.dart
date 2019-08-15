@@ -6,8 +6,8 @@ import 'posts_model.dart';
 import 'base_widget.dart';
 import 'postlist_item.dart';
 
-class Posts extends StatelessWidget {
-  const Posts({Key key}) : super(key: key);
+class PostsListView extends StatelessWidget {
+  const PostsListView({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
