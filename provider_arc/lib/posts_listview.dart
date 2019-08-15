@@ -41,7 +41,7 @@ class PostsListView extends StatelessWidget {
   const PostsListView({Key key}) : super(key: key);
   _makeListViewDirectWay(BuildContext context) =>
     PostingListView(
-      model: PostsModel(api: Provider.of(context)),
+      model: Provider.of<PostsModel>(context),
       onModelReady: (model) => model.getPosts(Provider.of<User>(context).id),
       builder: (context, model, child) => model.busy
         ? Center(
@@ -63,7 +63,7 @@ class PostsListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return _makeListViewDirectWay(context);
+   return _makeListViewDirectWay(context);
 //    return _makeListViewFilledStackWay(context);
   }
   _makeListViewFilledStackWay(BuildContext context) =>

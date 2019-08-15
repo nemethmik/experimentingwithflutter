@@ -5,7 +5,10 @@ import 'router.dart';
 
 import 'app_contstants.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  //Provider.debugCheckInvalidValueType = null;
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
