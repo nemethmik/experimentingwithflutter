@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:provider_arc/core/constants/app_contstants.dart';
-import 'package:provider_arc/core/models/post.dart';
-import 'package:provider_arc/ui/views/home_view.dart';
-import 'package:provider_arc/ui/views/login_view.dart';
-import 'package:provider_arc/ui/views/post_view.dart';
+import 'app_contstants.dart';
+import 'post.dart';
+import 'home_view.dart';
+import 'login_view.dart';
+import 'post_view.dart';
 
 class Router {
   static Route<dynamic> generateRoute(RouteSettings settings) {

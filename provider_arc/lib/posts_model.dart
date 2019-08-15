@@ -1,8 +1,8 @@
 import 'package:meta/meta.dart';
-import 'package:provider_arc/core/models/post.dart';
-import 'package:provider_arc/core/services/api.dart';
+import 'post.dart';
+import 'api.dart';
 
-import '../base_model.dart';
+import 'base_model.dart';
 
 class PostsModel extends BaseModel {
   Api _api;

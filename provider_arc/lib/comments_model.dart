@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
-import 'package:provider_arc/core/models/comment.dart';
-import 'package:provider_arc/core/services/api.dart';
-import 'package:provider_arc/core/viewmodels/base_model.dart';
+import 'comment.dart';
+import 'api.dart';
+import 'base_model.dart';
 
 class CommentsModel extends BaseModel {
   Api _api;

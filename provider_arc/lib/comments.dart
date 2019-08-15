@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_arc/core/models/comment.dart';
-import 'package:provider_arc/core/viewmodels/widgets/comments_model.dart';
-import 'package:provider_arc/ui/shared/app_colors.dart';
-import 'package:provider_arc/ui/shared/ui_helpers.dart';
-import 'package:provider_arc/ui/views/base_widget.dart';
+import 'comment.dart';
+import 'comments_model.dart';
+import 'app_colors.dart';
+import 'ui_helpers.dart';
+import 'base_widget.dart';
 
 class Comments extends StatelessWidget {
   final int postId;

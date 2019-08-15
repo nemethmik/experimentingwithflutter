@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_arc/core/constants/app_contstants.dart';
-import 'package:provider_arc/core/models/user.dart';
-import 'package:provider_arc/core/viewmodels/widgets/posts_model.dart';
-import 'package:provider_arc/ui/views/base_widget.dart';
-import 'package:provider_arc/ui/widgets/postlist_item.dart';
+import 'app_contstants.dart';
+import 'user.dart';
+import 'posts_model.dart';
+import 'base_widget.dart';
+import 'postlist_item.dart';
 
 class Posts extends StatelessWidget {
   const Posts({Key key}) : super(key: key);

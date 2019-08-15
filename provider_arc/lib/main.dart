@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_arc/provider_setup.dart';
-import 'package:provider_arc/ui/router.dart';
+import 'provider_setup.dart';
+import 'router.dart';
 
-import 'core/constants/app_contstants.dart';
+import 'app_contstants.dart';
 
 void main() => runApp(MyApp());
 
