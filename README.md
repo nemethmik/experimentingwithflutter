@@ -11,6 +11,12 @@ The first project in this series is **provider_counter**, which is actually a co
 
 The other project was **b1tensorbloc** based on one of the brilliant youtube videos from Tensor Programming. I used here B1 SL, however to make the experiment relevant.
 
+The project **provider_arc**
+was for experimenting with Provider 3.0 ProxyProvider.
+The project is based on 
+[FilledStacks youtube video](https://www.youtube.com/watch?v=VgrK_LlQRJ4&t=1s) 
+and [initial project](https://github.com/FilledStacks/flutter-tutorials/tree/master/014-provider-v3-updates)
+
 ## [Flutter Architecture Samples](https://github.com/brianegan/flutter_architecture_samples)
 The most important Flutter saple set is Brian Egan's sample set especially the [Vanilla](https://github.com/brianegan/flutter_architecture_samples/tree/master/example/vanilla) is brilliant. 
 In this example he mentiones that he brough the concepts from React's [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html) as well as Thinking in React, which my favorite, too.
