@@ -9,7 +9,7 @@ On 20190815 I started making subdirectories for the samples.
 
 The first project in this series is **provider_counter**, which is actually a copy from [flutter/samples/provider_counter](https://github.com/flutter/samples/blob/master/provider_counter/lib/main.dart). I simply created a new project with the command `Flutter: New Project` in VSC. 
 
-
+The other project was **b1tensorbloc** based on one of the brilliant youtube videos from Tensor Programming. I used here B1 SL, however to make the experiment relevant.
 
 ## [Flutter Architecture Samples](https://github.com/brianegan/flutter_architecture_samples)
 The most important Flutter saple set is Brian Egan's sample set especially the [Vanilla](https://github.com/brianegan/flutter_architecture_samples/tree/master/example/vanilla) is brilliant. 
