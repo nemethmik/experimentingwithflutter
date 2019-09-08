@@ -10,6 +10,14 @@ This is the app discussed in the [Simple app state management][simple] section o
 [simple]: https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple
 [flutter.dev]: https://flutter.dev/
 
+## My modifications and experimenting
+
+I have added SafeArea to the Body of the Scaffold as explained in the video about [SafeArea](https://www.youtube.com/watch?v=lkF0TQJO0bA).
+Then I added some prints to monitor when the add button was rebuilt.
+My observation was that sliver list implements brilliantly a mobile friendly paging behavior, it pages not only forward but backwards, too. And the interface is astoundingly simple, a joy to use. Here is a [demo video](https://youtu.be/IDLZgMJ_tYY) I made.
+
+Another experiment was to test how sliver list handles the situation when we don't know upfront the number of elements; so, when we return null to SliverChildBuilderDelegate, its knows that we have no more data to show. 
+
 ## Goals for this sample
 
 * Show simple use of `Provider` for providing an immutable value to a subtree
