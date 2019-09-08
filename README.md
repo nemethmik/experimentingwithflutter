@@ -19,6 +19,8 @@ and [initial project](https://github.com/FilledStacks/flutter-tutorials/tree/mas
 
 The project **nav_service** was from FilledStacks [video](https://www.youtube.com/watch?v=kopdISefbJc) and corresponding sample repository. I have added **WillPopScope** widget to prevent back-navigation without logout.
 
+**provider_shopper** was a copy from the Flutter samples, and it used sliver list, which I was experimenting with. I have added Safe Area to the Scaffold body, then I found that when a null is returned to SliverChildBuilderDelegate, sliver list knows that you have no more data. Sliver list pages elements forward and backwards, which is really excellent for mobile list handling.
+
 ## [Flutter Architecture Samples](https://github.com/brianegan/flutter_architecture_samples)
 The most important Flutter saple set is Brian Egan's sample set especially the [Vanilla](https://github.com/brianegan/flutter_architecture_samples/tree/master/example/vanilla) is brilliant. 
 In this example he mentiones that he brough the concepts from React's [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html) as well as Thinking in React, which my favorite, too.
