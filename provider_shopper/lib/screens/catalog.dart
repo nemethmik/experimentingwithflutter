@@ -11,15 +11,17 @@ class MyCatalog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: CustomScrollView(
-        slivers: [
-          _MyAppBar(),
-          SliverToBoxAdapter(child: SizedBox(height: 12)),
-          SliverList(
-            delegate: SliverChildBuilderDelegate(
-                (context, index) => _MyListItem(index)),
-          ),
-        ],
+      body: SafeArea(
+          child: CustomScrollView(
+          slivers: [
+            _MyAppBar(),
+            SliverToBoxAdapter(child: SizedBox(height: 12)),
+            SliverList(
+              delegate: SliverChildBuilderDelegate(
+                  (context, index) => _MyListItem(index)),
+            ),
+          ],
+        ),
       ),
     );
   }
