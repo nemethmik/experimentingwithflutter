@@ -15,4 +15,8 @@ class HomeViewModel extends BaseModel {
       _navigationService.goBack();
     }
   }
+  Future<bool> onWillPop() async {
+    setErrorMessage("Cannot step back without logging out");
+    return false;
+  }
 }
